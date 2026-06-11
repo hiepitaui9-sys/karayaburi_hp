@@ -1940,4 +1940,109 @@ body.overflow-hidden {
   }
 }
 
+/* ==========================================
+   HOME 代表メッセージ下部 アカウント紹介エリア
+   ========================================== */
+.creator-intro-box {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(123, 31, 162, 0.15);
+  background-color: rgba(123, 31, 162, 0.01);
+  padding: 30px;
+  text-align: left; /* 親要素のセンター寄せの影響をリセット */
+  transition: var(--transition-smooth);
+}
+
+.creator-intro-box:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 10px 30px rgba(123, 31, 162, 0.05);
+}
+
+.creator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(123, 31, 162, 0.08);
+  padding-bottom: 12px;
+}
+
+.creator-name {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--primary-dark);
+  letter-spacing: 0.05em;
+}
+
+.creator-stats {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--primary-color);
+  background-color: rgba(123, 31, 162, 0.05);
+  padding: 4px 12px;
+  letter-spacing: 0.05em;
+}
+
+.creator-sns-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.creator-sns-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background-color: var(--base-color);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: var(--transition-smooth);
+}
+
+.creator-sns-link .sns-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--primary-color);
+  transition: var(--transition-smooth);
+}
+
+.creator-sns-link span {
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: 0.05em;
+}
+
+.creator-sns-link:hover {
+  border-color: var(--accent-color);
+  background-color: rgba(224, 64, 251, 0.02);
+  transform: translateY(-2px);
+}
+
+.creator-sns-link:hover .sns-icon {
+  fill: var(--accent-color);
+  transform: scale(1.1);
+}
+
+.creator-sns-link:hover span {
+  color: var(--primary-dark);
+}
+
+@media (max-width: 600px) {
+  .creator-intro-box {
+    padding: 20px;
+    margin-top: 25px;
+  }
+  .creator-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .creator-sns-links {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
 
