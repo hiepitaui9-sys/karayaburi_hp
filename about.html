@@ -27,7 +27,6 @@
         <div class="nav-item"><a href="index.html">HOME</a></div>
         <div class="nav-item active"><a href="about.html">ABOUT</a></div>
         <div class="nav-item"><a href="service.html">SERVICE</a></div>
-        <div class="nav-item"><a href="works.html">WORKS</a></div>
         <div class="nav-item"><a href="contact.html">CONTACT</a></div>
         <a href="contact.html" class="nav-item-contact" style="display: none;">CONTACT</a>
       </nav>
@@ -41,38 +40,133 @@
     </div>
   </header>
 
-  <!-- --- SUBPAGE HERO --- -->
-  <section class="subpage-hero">
+  <!-- --- SUBPAGE HERO (REVAMPED WITH PRESIDENT INFO) --- -->
+  <section class="about-hero-sec section-padding">
     <div class="container">
-      <h1 class="subpage-title">私たちについて</h1>
-      <p class="subpage-subtitle">About Us</p>
+      <div class="home-about-grid">
+        <div class="reveal-fade about-img-wrapper">
+          <img src="assets/images/president_ibuki.png" alt="代表取締役 伊吹" class="about-president-img">
+        </div>
+        <div class="reveal-fade reveal-delay-2 about-text-wrapper">
+          <p class="section-subtitle">About Us</p>
+          <h2 class="about-title-main">代表メッセージ</h2>
+          <p class="about-msg-text">
+            現役クリエイターの伊吹が代表を務めるクリエイティブチームです。自身が「伊吹とよへ」として最前線でSNS活動を行ってきた経験とノウハウを活かし、アカウントの戦略立案から運用、コンテンツ制作まで、SNSに関するすべての業務をワンストップでサポートいたします。
+          </p>
+          <div class="about-btn-wrap">
+            <a href="service.html" class="btn-yaburi">
+              <span>サービスを見る</span>
+              <span class="arrow"></span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- --- MESSAGE SECTION --- -->
-  <section class="about-message-sec section-padding" id="message">
+  <!-- --- WORKS INTEGRATION SECTION --- -->
+  <section class="about-works-sec section-padding" id="works">
     <div class="container">
-      <div class="about-intro-grid">
-        <div class="reveal-fade">
-          <p class="section-subtitle">Our Mission</p>
-          <h2 class="problem-heading" style="margin-bottom: 25px;">
-            <span class="q-badge">Q.</span> SNSで何をやれば良いのか？
-          </h2>
-          <div class="about-lead">
-            「インフルエンサーと裏の活動」という両面のアプローチから、SNSにおける企業の悩みに寄り添い、解決へと導きます。
+      <div class="section-title-wrap reveal-fade">
+        <p class="section-subtitle">Works</p>
+        <h2 class="section-title">実績紹介</h2>
+      </div>
+
+      <!-- SNS Accounts -->
+      <div class="works-subsection reveal-fade" id="own-media">
+        <h3 class="subsection-title">自社メディア</h3>
+        <div class="media-cards-grid">
+          <!-- Media 1: Ibuki to Yohe -->
+          <div class="media-detail-card">
+            <div class="media-header">
+              <h3>伊吹とよへ -SNS-</h3>
+              <div class="media-avatar" style="background: none; border: 1px solid rgba(123, 31, 162, 0.15);">
+                <img src="assets/images/ibukitoyohe_icon.jpg" alt="伊吹とよへ" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+              </div>
+            </div>
+            <p class="media-desc">
+              マルチに活躍するクリエイターデュオ。TikTokを筆頭に各種SNSで圧倒的な支持を集め、若年層を中心に日常に寄り添ったエンタメコンテンツやコメディ動画を発信し続けています。
+            </p>
+            <div class="media-sns-links">
+              <a href="https://www.youtube.com/@ibukitoyohe" target="_blank" aria-label="YouTube" class="yt-link">
+                <svg viewBox="0 0 24 24"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/ibukitoyohe0709/" target="_blank" aria-label="Instagram" class="ig-link">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@ibukitoyohedayo" target="_blank" aria-label="TikTok" class="tt-link">
+                <svg viewBox="0 0 24 24"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.81-.74-3.99-1.66-.49-.39-.94-.85-1.32-1.35(V.02h.16z"/></svg>
+              </a>
+              <a href="https://x.com/ibukitoyohedayo" target="_blank" aria-label="X" class="x-link">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Media 2: Ibuyohe Squash -->
+          <div class="media-detail-card">
+            <div class="media-header">
+              <h3>いぶよへスカッシュ</h3>
+              <div class="media-avatar" style="background: none; border: 1px solid rgba(123, 31, 162, 0.15);">
+                <img src="assets/images/ibuyohe_squash_icon.jpg" alt="いぶよへスカッシュ" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+              </div>
+            </div>
+            <p class="media-desc">
+              ショートドラマの先駆者である「劇団スカッシュ」と「伊吹とよへ」がタッグを組んで制作されたショートドラマ特化型アカウント。綿密なシナリオ設計と高い演技力で、離脱の少ない縦型ショートコンテンツを多数生み出しています。
+            </p>
+            <div class="media-sns-links">
+              <a href="https://www.youtube.com/@ibuyohesquash" target="_blank" aria-label="YouTube" class="yt-link">
+                <svg viewBox="0 0 24 24"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/ibuyohesquash/" target="_blank" aria-label="Instagram" class="ig-link">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@ibuyohesquash" target="_blank" aria-label="TikTok" class="tt-link">
+                <svg viewBox="0 0 24 24"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.81-.74-3.99-1.66-.49-.39-.94-.85-1.32-1.35v6.52c-.03 2.1-.94 4.22-2.63 5.48-1.78 1.34-4.23 1.71-6.39 1.04-2.31-.72-4.23-2.68-4.73-5.07-.6-2.83.67-5.91 3.12-7.29 1.4-.78 3.03-1.01 4.6-.68v4.07c-1.12-.39-2.39-.16-3.29.62-.84.72-1.18 1.89-.91 2.96.28 1.09 1.3 1.88 2.4 1.85 1.29.04 2.45-.89 2.62-2.17.07-.54.06-1.09.06-1.63V.02h.16z"/></svg>
+              </a>
+              <a href="https://x.com/ibuyohesquash" target="_blank" aria-label="X" class="x-link">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="reveal-fade reveal-delay-2 about-body-text">
-          <p>
-            現在、多くの企業がSNSでの情報発信に重要性を感じつつも、「何を投稿すればいいのか分からない」「フォロワーが増えてもビジネスに繋がらない」といった本質的な課題を抱えています。
-          </p>
-          <p>
-            カラヤブリは、単なる代理運用やフォロワー数を増やすための小手先のテクニックは提案しません。
-            私たちは「インフルエンサー（表の活動）」として直接ファンと対話し熱狂を生み出してきた知見と、「裏の活動（データ分析・企画設計・戦略マーケティング）」としてのロジカルな思考を併せ持っています。
-          </p>
-          <p>
-            これまでの業界の「アタリマエ」や固定概念、殻（カラ）を学び壊し、時代の先を行くクリエイティブによって、クライアントのビジネスに確かな変革をもたらすことが私たちの使命です。
-          </p>
+      </div>
+
+      <!-- Video Production Works -->
+      <div class="works-subsection reveal-fade" style="margin-top: 60px;" id="video-works">
+        <h3 class="subsection-title">制作実績</h3>
+        <div class="works-grid">
+          <!-- Work 1 -->
+          <a href="https://youtu.be/A1MLXP5Tsn0?si=dBFtoSz1M7Hn-1nl" target="_blank" class="works-card play-hover">
+            <div class="works-thumbnail-wrapper">
+              <div class="works-thumbnail">
+                <img src="https://img.youtube.com/vi/A1MLXP5Tsn0/hqdefault.jpg" alt="ぜろかろりーのうた/伊吹とよへ" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="play-icon-overlay">
+                  <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="works-info">
+              <span class="works-tag">映像制作・プロデュース</span>
+              <h3 class="works-item-title">ぜろかろりーのうた / 伊吹とよへ</h3>
+            </div>
+          </a>
+
+          <!-- Work 2 -->
+          <a href="https://youtu.be/VbT0x2Kn_CU?si=xGglia--JVnFMGNK" target="_blank" class="works-card play-hover">
+            <div class="works-thumbnail-wrapper">
+              <div class="works-thumbnail">
+                <img src="https://img.youtube.com/vi/VbT0x2Kn_CU/hqdefault.jpg" alt="一生一緒/伊吹とよへ" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="play-icon-overlay">
+                  <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="works-info">
+              <span class="works-tag">映像制作・プロデュース</span>
+              <h3 class="works-item-title">一生一緒 / 伊吹とよへ</h3>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -111,7 +205,7 @@
             <th>事業内容</th>
             <td>
               1. SNSアカウント総合プロデュース・運用支援<br>
-              2. デジタルマーケティング・データ分析コンサルティング<br>
+              2. デジタルマーケティング・データ analysisコンサルティング<br>
               3. 各種プロモーション映像・CM・SNS縦型動画の企画・撮影・編集<br>
               4. クリエイター育成・マネジメント事業
             </td>
@@ -165,7 +259,7 @@
           <div class="footer-hierarchy-group">
             <a href="about.html" class="footer-hierarchy-parent">ABOUT</a>
             <div class="footer-hierarchy-children">
-              <a href="about.html#message" class="footer-hierarchy-child">MESSAGE</a>
+              <a href="about.html#works" class="footer-hierarchy-child">WORKS</a>
               <a href="about.html#company" class="footer-hierarchy-child">COMPANY</a>
             </div>
           </div>
@@ -181,13 +275,6 @@
               <a href="service.html#produce" class="footer-hierarchy-child">PRODUCE</a>
               <a href="service.html#marketing" class="footer-hierarchy-child">MARKETING</a>
               <a href="service.html#video" class="footer-hierarchy-child">STUDIO</a>
-            </div>
-          </div>
-          <div class="footer-hierarchy-group">
-            <a href="works.html" class="footer-hierarchy-parent">WORKS</a>
-            <div class="footer-hierarchy-children">
-              <a href="works.html#own-media" class="footer-hierarchy-child">MEDIA</a>
-              <a href="works.html#video-works" class="footer-hierarchy-child">WORKS</a>
             </div>
           </div>
         </div>

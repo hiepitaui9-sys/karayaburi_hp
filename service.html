@@ -27,7 +27,6 @@
         <div class="nav-item"><a href="index.html">HOME</a></div>
         <div class="nav-item"><a href="about.html">ABOUT</a></div>
         <div class="nav-item active"><a href="service.html">SERVICE</a></div>
-        <div class="nav-item"><a href="works.html">WORKS</a></div>
         <div class="nav-item"><a href="contact.html">CONTACT</a></div>
         <a href="contact.html" class="nav-item-contact" style="display: none;">CONTACT</a>
       </nav>
@@ -51,15 +50,15 @@
 
   <!-- --- SERVICE BLOCKS --- -->
   <!-- Block 1: Produce -->
-  <section class="service-block section-padding" id="produce">
+  <section class="service-block section-padding" id="produce" data-bg-text="PRODUCE">
     <div class="container">
-      <div class="service-block-grid">
+      <div class="service-block-grid text-only-rich">
         <div class="reveal-fade service-block-content">
           <span class="service-block-num">SOLUTION 01</span>
           <h3>プロデュース</h3>
           <p class="service-block-lead">クリエイターならではの視点を活かし、ターゲットに刺さる根本的な設計を行います。</p>
           
-          <div class="service-detail-list">
+          <div class="service-detail-list boxed-cards">
             <div class="service-detail-item">
               <h4>コンセプト設計</h4>
               <p>誰に、何を、どのように伝えるのか。アカウントの目的とターゲットを明確にし、独自の価値を引き出すための基盤を創ります。</p>
@@ -73,25 +72,28 @@
               <p>一貫したビジュアルと世界観で、企業のファンを増やし、ブランド価値を強固にするデザインワークとストーリー設計を行います。</p>
             </div>
           </div>
-        </div>
-        
-        <div class="reveal-fade reveal-delay-2 service-block-visual">
-          <img src="assets/images/hero_collaboration.png" alt="プロデュース事業">
+
+          <div class="service-action-btn-wrap" style="margin-top: 40px;">
+            <a href="about.html#works" class="btn-yaburi">
+              <span>実績を見る</span>
+              <span class="arrow"></span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Block 2: Marketing -->
-  <section class="service-block section-padding" id="marketing">
+  <section class="service-block section-padding" id="marketing" data-bg-text="MARKETING">
     <div class="container">
-      <div class="service-block-grid">
+      <div class="service-block-grid text-only-rich">
         <div class="reveal-fade service-block-content">
           <span class="service-block-num">SOLUTION 02</span>
           <h3>マーケティング</h3>
           <p class="service-block-lead">データやトレンドを活用し、SNSをビジネスの具体的な成果（売上や認知拡大）へ直結させます。</p>
           
-          <div class="service-detail-list">
+          <div class="service-detail-list boxed-cards">
             <div class="service-detail-item">
               <h4>マネタイズ</h4>
               <p>フォロワーの「熱量」を購買行動やサービス利用に繋げるための、販売導線設計やキャンペーン施策の立案を行います。</p>
@@ -110,33 +112,41 @@
             </div>
           </div>
         </div>
-        
-        <div class="reveal-fade reveal-delay-2 service-block-visual">
-          <img src="assets/images/service_analysis.png" alt="マーケティング事業">
-        </div>
       </div>
     </div>
   </section>
 
   <!-- Block 3: Video Production -->
-  <section class="service-block section-padding" id="video">
+  <section class="service-block section-padding" id="video" data-bg-text="CREATIVE">
     <div class="container">
-      <div class="service-block-grid">
+      <div class="service-block-grid text-only-rich">
         <div class="reveal-fade service-block-content">
           <span class="service-block-num">SOLUTION 03</span>
           <h3>映像制作</h3>
           <p class="service-block-lead">企画から撮影・編集まで、あらゆるフォーマットに対応し、高品質なクリエイティブを制作します。</p>
           
-          <div class="service-detail-list">
-            <div class="service-detail-item">
+          <div class="service-detail-list boxed-cards single-card">
+            <div class="service-detail-item format-list-card">
               <h4>制作対応フォーマット</h4>
-              <p>・ブランド広告映像、プロモーションCM<br>・グラフィック＆スチール撮影（ポスター・WEB用）<br>・SNS用縦型ショート動画（TikTok、YouTube Shorts、Instagram Reels）</p>
+              <ul class="format-grid">
+                <li>
+                  <span class="format-tag">AD / CM</span>
+                  <strong>ブランド広告映像・プロモーションCM</strong>
+                  <p>企業のブランドメッセージを表現するハイクオリティな映像や、Web・TV用のプロモーションCMを企画から制作します。</p>
+                </li>
+                <li>
+                  <span class="format-tag">STILL</span>
+                  <strong>グラフィック＆スチール撮影</strong>
+                  <p>キービジュアル、ポスター、WEBサイト用など、各種媒体に合わせたプロフェッショナルな商業写真の撮影を行います。</p>
+                </li>
+                <li>
+                  <span class="format-tag">VERTICAL</span>
+                  <strong>SNS用縦型ショート動画</strong>
+                  <p>TikTok、YouTube Shorts、Instagram Reelsなどに最適化した、インプレッションとエンゲージメントを極大化する縦型ショート映像を制作します。</p>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-        
-        <div class="reveal-fade reveal-delay-2 service-block-visual">
-          <img src="assets/images/hero_camera.png" alt="映像制作事業">
         </div>
       </div>
     </div>
@@ -186,7 +196,7 @@
           <div class="footer-hierarchy-group">
             <a href="about.html" class="footer-hierarchy-parent">ABOUT</a>
             <div class="footer-hierarchy-children">
-              <a href="about.html#message" class="footer-hierarchy-child">MESSAGE</a>
+              <a href="about.html#works" class="footer-hierarchy-child">WORKS</a>
               <a href="about.html#company" class="footer-hierarchy-child">COMPANY</a>
             </div>
           </div>
@@ -202,13 +212,6 @@
               <a href="service.html#produce" class="footer-hierarchy-child">PRODUCE</a>
               <a href="service.html#marketing" class="footer-hierarchy-child">MARKETING</a>
               <a href="service.html#video" class="footer-hierarchy-child">STUDIO</a>
-            </div>
-          </div>
-          <div class="footer-hierarchy-group">
-            <a href="works.html" class="footer-hierarchy-parent">WORKS</a>
-            <div class="footer-hierarchy-children">
-              <a href="works.html#own-media" class="footer-hierarchy-child">MEDIA</a>
-              <a href="works.html#video-works" class="footer-hierarchy-child">WORKS</a>
             </div>
           </div>
         </div>
